@@ -17,11 +17,12 @@ function logWhisper(string) {
 function sayHiToGrandma(string) {
   var lowercase = string;
   var uppercase = string;
+  if (string === 'I love you, Grandma') {
+  return "I love you, too."
+  }
   if (string.toLowerCase() === lowercase) {
     return "I can't hear you!"
   } if (uppercase === string) {
     return "YES INDEED!"
-  } if (string === 'I love you, Grandma') {
-    return "I love you, too."
   }
 }
